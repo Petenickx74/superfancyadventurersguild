@@ -24,7 +24,7 @@ audio {
   height: 64px;
   width: 100vw;
   margin: 0px !important;
-  padding: 64px !important;
+  padding: 0px !important;
 }
 /* Carousel */
 .slider {
