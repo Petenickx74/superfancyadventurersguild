@@ -1,14 +1,69 @@
-body {
-	margin: 0;
-	font-family: ;
-	font-size: ;
-	color: ;
-	background-color: #ba9b5b;
+html, body {
+  height: 100vh !important;
+  width: 100vw !important;
+  margin: 0px !important;
+  padding: 0 !important;
+  background-color: #614932
+  font-family: pixeled;
+}
+/*Working on integrating a font I have in fonts folder*/
+@font-face { 
+  font-family: pixeled; src: url(FONT.FILE); 
+}
+img#mainimg {
+  width: 100%;
+  padding: 0 !important;
+}
+/* AUDIO SECTION */
+audio {
+  float: right;
+}
+/* This is a box to take up a portion of the screen. */
+#demobox {
+  background-color: #78736e;
+  height: 64px;
+  width: 100vw;
+  margin: 0px !important;
+  padding: 64px !important;
+}
+/* Carousel */
+.slider {
+  width: 700px;
+  margin: 0 auto 20px;
+  text-align: center;
 }
 
-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.1px;
-  object-fit: cover;
+.slider .photos {
+  position: relative;
+  height: 433px;
 }
+.slider .photos img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.slider .photos img.shown {
+  opacity: 1;
+}
+        
+.prev:before,
+.next:before {
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+}
+
+.prev:before {
+  content: '<';
+  left: 0;
+}
+
+.next:before {
+  content: '>';
+  right: 0;
+}
+    
