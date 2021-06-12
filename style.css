@@ -8,7 +8,7 @@ html, body {
 }
 /*Working on integrating a font I have in fonts folder*/
 @font-face { 
-  font-family: pixeled; src: url(FONT.FILE); 
+  font-family: pixeled; src: url(fonts/Pixeled.woff); 
 }
 img#mainimg {
   width: 100%;
@@ -28,9 +28,11 @@ audio {
 }
 /* Carousel */
 .slider {
-  width: 700px;
+  float: right;
+  padding-right: 10px;
+  width: 200px;
   margin: 0 auto 20px;
-  text-align: center;
+  text-align: right;
 }
 
 .slider .photos {
