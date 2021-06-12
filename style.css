@@ -3,7 +3,7 @@ html, body {
   width: 100vw !important;
   margin: 0px !important;
   padding: 0 !important;
-  background-color: #614932
+  background-color: #614932;
   font-family: pixeled;
 }
 /*Working on integrating a font I have in fonts folder*/
@@ -35,7 +35,7 @@ audio {
 
 .slider .photos {
   position: relative;
-  height: 433px;
+  height: 150px;
 }
 .slider .photos img {
   width: 100%;
