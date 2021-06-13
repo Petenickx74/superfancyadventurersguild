@@ -14,6 +14,9 @@ img#mainimg {
   width: 100%;
   padding: 0 !important;
 }
+img#barman {
+  width: 400px;
+}
 /* AUDIO SECTION */
 audio {
   float: right;
