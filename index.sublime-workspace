@@ -1,0 +1,251 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"font-",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"copy path",
+				"Copy Relative Path: Copy"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add folder",
+				"Project: Add Folder"
+			],
+			[
+				"floo",
+				"Floobits - Join Workspace"
+			],
+			[
+				"add li",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/peternickell 1/Desktop/superfancyadventurersguild/Website/img/spellsandswordandpotion/Common Sword.gif",
+		"/Users/peternickell 1/Desktop/superfancyadventurersguild/webpack-boilerplate/src/styles/index.scss",
+		"/Users/peternickell 1/Desktop/superfancyadventurersguild/webpack-boilerplate/src/template.html",
+		"/Users/peternickell 1/Desktop/superfancyadventurersguild/webpack-boilerplate/src/index.js",
+		"/Users/peternickell 1/Desktop/ActivateRequestXML_peter-nickells-macbook-5.local.xml",
+		"/Users/peternickell 1/Desktop/webpack_boiler/.gitignore",
+		"/Users/peternickell 1/Desktop/webpack_boiler/webpack.config.js",
+		"/Users/peternickell 1/Desktop/webpack_boiler/entry.js",
+		"/Users/peternickell 1/Desktop/webpack_boiler/pages/header.html",
+		"/Users/peternickell 1/Desktop/webpack_boiler/index.html",
+		"/Users/peternickell 1/Desktop/webpack_boiler/pages/page1.html",
+		"/Users/peternickell 1/Desktop/webpack_boiler/package.json",
+		"/Users/peternickell 1/Desktop/webpack_boiler/webpack.production.config.js",
+		"/Users/peternickell 1/Desktop/webpack_boiler/pages/page3.html",
+		"/Users/peternickell 1/Desktop/webpack_boiler/pages/page2.html",
+		"/Users/peternickell 1/Documents/Baldur's Gate II - Enhanced Edition/Baldur.lua",
+		"/Users/peternickell 1/Desktop/push_website",
+		"/Users/peternickell 1/Desktop/backup_zelda",
+		"/Users/peternickell 1/Desktop/Website/FROMTHEASHES/piccolo/css/style-ie.css",
+		"/Users/peternickell 1/Desktop/Website/FROMTHEASHES/piccolo/css/prettyPhoto.css",
+		"/Users/peternickell 1/Desktop/Website/FROMTHEASHES/piccolo/css/flexslider.css",
+		"/Users/peternickell 1/Desktop/Website/FROMTHEASHES/piccolo/css/custom-styles.css",
+		"/Users/peternickell 1/Desktop/Website/FROMTHEASHES/piccolo/css/bootstrap.css",
+		"/Users/peternickell 1/Desktop/Website/FROMTHEASHES/piccolo/css/bootstrap-responsive.css",
+		"/Users/peternickell 1/floobits/peternicke/foo/test.foo",
+		"/Users/peternickell 1/Desktop/website/capture_pixelhint/css/main.css",
+		"/Users/peternickell 1/Desktop/website/capture_pixelhint/index.html",
+		"/Users/peternickell 1/Desktop/website/__MACOSX/capture_pixelhint/fonts/._opensans-bold.eot"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"index",
+				"dist/index.html"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"main.css",
+				"capture_pixelhint/css/main.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
