@@ -11,13 +11,6 @@ html, body {
 @font-face { 
   font-family: pixeled; src: url(fonts/Pixeled.woff); 
 }
-img#mainimg {
-  width: 100%;
-  padding: 0 !important;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-color: #7d7c7a!important
-}
 
 /* NAVIGATION BAR */
 ul {
@@ -27,6 +20,7 @@ ul {
   background-color: #845439;
   border-bottom-style: solid;
   border-color: #7d7c7a!important
+  outline: 1px solid #666666;
 }
 li {
   float: left;
@@ -46,7 +40,20 @@ li a:hover {
 audio {
   float: right;
 }
-/* This is a box to take up a portion of the screen. */
+
+/* BACKGROUND IMAGE */
+img#mainimg {
+  width: 100%;
+  padding: 0 !important;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #7d7c7a !important;
+  outline-style: solid;
+  outline-color: #666666;
+  outline-width: thick;
+}
+
+/* This is a box to take up a portion of the screen. 
 #demobox {
   background-color: #78736e;
   height: 64px;
@@ -54,6 +61,7 @@ audio {
   margin: 0px !important;
   padding: 0px !important;
 }
+*/
 
 /* (A) SPEECH BOX */
 .speech {
@@ -86,7 +94,6 @@ audio {
   margin-left: -20px;
 }
 
-
 /* CAROUSEL */
 .slider {
   float: right;
@@ -96,7 +103,6 @@ audio {
   margin: 0 auto 20px;
   text-align: right;
 }
-
 .slider .photos {
   position: relative;
   height: 150px;
@@ -110,8 +116,7 @@ audio {
 }
 .slider .photos img.shown {
   opacity: 1;
-}
-        
+}        
 .prev:before,
 .next:before {
   color: #fff;
