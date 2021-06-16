@@ -18,7 +18,7 @@ section {
 /* NAVIGATION BAR */
   /* The navbar container */
 nav {
-  display: block;
+  position: static;
   width: 100%; /* this make container fluid*/
   height: auto;
   border-top-style: solid;
@@ -34,7 +34,6 @@ nav ul {
   background-color: #845439;
 }
 nav li {
-  float: left;
   display: inline;
   color: #baaa16;
 }
@@ -49,7 +48,6 @@ li a:hover {
 
 /* AUDIO SECTION */
 nav audio {
-  float: right;
 }
 
 /* BACKGROUND IMAGE */
