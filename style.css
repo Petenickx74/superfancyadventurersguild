@@ -33,7 +33,7 @@ li {
   display: inline;
   color: #baaa16;
 }
-li a {
+a {
   color: #cabf02;
   padding: 4px 6px;
   text-decoration: none;
