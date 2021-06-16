@@ -20,11 +20,10 @@ section {
 nav {
   display: block;
   width: 100%; /* this make container fluid*/
-  height: 54px;
+  height: auto;
   border-top-style: solid;
   border-bottom-style: solid;
   border-color: #7d7c7a !important;
-  /*outline: 1px solid #666666;*/
 }
 
 nav ul {
@@ -34,7 +33,7 @@ nav ul {
   padding: 0;
   background-color: #845439;
 }
-li {
+nav li {
   float: left;
   display: inline;
   color: #baaa16;
@@ -49,7 +48,7 @@ li a:hover {
 }
 
 /* AUDIO SECTION */
-audio {
+nav audio {
   float: right;
 }
 
