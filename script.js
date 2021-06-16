@@ -5,7 +5,8 @@ window.onload = function() {
         images: '.slider-1 img',
         btnPrev: '.slider-1 .buttons .prev',
         btnNext: '.slider-1 .buttons .next',
-        auto: false
+        auto: true,
+        rate: 3000
     });
 }
 
