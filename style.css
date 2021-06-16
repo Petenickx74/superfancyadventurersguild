@@ -1,8 +1,6 @@
-html, body {
-  height: 100vh !important;
-  width: 100vw !important;
+body {
+  width: 100%;
   margin: 0px !important;
-  padding: 0 !important;
   background-color: #845439;
   font-family: pixeled;
 }
@@ -12,18 +10,25 @@ html, body {
   font-family: pixeled; src: url(fonts/Pixeled.woff); 
 }
 
+/*  SECTIONS */
+section {
+  width: 100%;
+}
+
 /* NAVIGATION BAR */
+  /* The navbar container */
 nav {
+  display: block;
   width: 100%; /* this make container fluid*/
-  height: auto;
-  margin-right: auto; /* this make content center*/
-  margin-left: auto; /* this make content center*/
+  height: 54px;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-color: #7d7c7a!important;
-  outline: 1px solid #666666;
+  border-color: #7d7c7a !important;
+  /*outline: 1px solid #666666;*/
 }
-ul {
+
+nav ul {
+  display: inline;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,19 +65,9 @@ img#mainimg {
   outline-width: 1 px;
 }
 
-/* This is a box to take up a portion of the screen. 
-#demobox {
-  background-color: #78736e;
-  height: 64px;
-  width: 100vw;
-  margin: 0px !important;
-  padding: 0px !important;
-}
-*/
-
-/* (A) SPEECH BOX */
+/* SPEECH BOX */
 .speech {
-  /* (A2) DIMENSIONS + BACKGROUND */
+  /* DIMENSIONS + BACKGROUND */
   position: relative;
   background: #fff;
   padding: 20px;
@@ -82,15 +77,15 @@ img#mainimg {
   border-width: 5px;
   max-width: 100vw;
 }
-/* (B) ADD SPEECH "CALLOUT TAIL" */
-/* (B1) ATTACH TRANSPARENT BORDERS AFTER */
+/* ADD SPEECH "CALLOUT TAIL" */
+/* ATTACH TRANSPARENT BORDERS AFTER */
 .speech::after {
   position: absolute;
   content: '';
   border: 20px solid transparent;
 }
  
-/* (B2) CREATE + POSITION CALLOUT "TAIL" */
+/* CREATE + POSITION CALLOUT "TAIL" */
 .half.speech::after {
   /* DOWN TRIANGLE */
   border-left-color: #fff;

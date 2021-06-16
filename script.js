@@ -7,14 +7,6 @@ window.onload = function() {
         btnNext: '.slider-1 .buttons .next',
         auto: false
     });
-
-   var slider2 = new Slider({
-        images: '.slider-2 img',
-        btnPrev: '.slider-2 .buttons .prev',
-        btnNext: '.slider-2 .buttons .next',
-        auto: true,
-        rate: 2000
-    });
 }
 
 function Slider(obj) {
