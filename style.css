@@ -13,14 +13,21 @@ html, body {
 }
 
 /* NAVIGATION BAR */
+nav {
+  width: 100%; /* this make container fluid*/
+  height: auto;
+  margin-right: auto; /* this make content center*/
+  margin-left: auto; /* this make content center*/
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #7d7c7a!important;
+  outline: 1px solid #666666;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #845439;
-  border-bottom-style: solid;
-  border-color: #7d7c7a!important
-  outline: 1px solid #666666;
 }
 li {
   float: left;
@@ -50,7 +57,7 @@ img#mainimg {
   border-color: #7d7c7a !important;
   outline-style: solid;
   outline-color: #666666;
-  outline-width: thick;
+  outline-width: 1 px;
 }
 
 /* This is a box to take up a portion of the screen. 
