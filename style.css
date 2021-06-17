@@ -52,18 +52,20 @@ a {
   color: #cabf02;
   padding: 4px 6px;
   text-decoration: none;
-  text-shadow: 2px 2px #663333;
+  text-shadow: -2px 3px #663333;
 }
 li a:hover {
   background-color: #38281a;
 }
 #logo {
-  padding-top: 5px;
+  padding-top: 2px;
   padding-left: 5px;
   margin-bottom: -3px;
+  filter: drop-shadow(-1px 3px #663333);
 }
-#icon {
+#telegram {
   margin-bottom: -8px;
+  filter: drop-shadow(-1px 3px #663333);
 }
 
 /* AUDIO SECTION */
