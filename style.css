@@ -2,12 +2,12 @@ body {
   width: 100%;
   margin: 0px !important;
   background-color: #845439;
-  font-family: pixeled;
+  font-family: Pixel2;
 }
 
 /* FONT */
 @font-face { 
-  font-family: pixeled; src: url(fonts/Pixeled.woff); 
+  font-family: Pixel2; src: url(fonts/Pixel2.ttf); 
 }
 
 /*  SECTIONS */
@@ -15,67 +15,76 @@ section {
   width: 100%;
 }
 
+#spacer {
+  height: 1px;
+  margin: 0px;
+  padding-top: 2px;
+  border-top-style: solid;
+  border-color: #666666;
+  background-color: #7d7c7a;
+  outline-color:  #7d7c7a;
+}
+
 /* NAVIGATION BAR */
   /* The navbar container */
 nav {
-  clear: left;
+  display: inline-block;
+  clear: both;
   position: static;
-  width: 100%; /* this make container fluid*/
-  height: auto;
+  width: 100%; /* this make container fluid */
   border-top-style: solid;
-  border-width: 3px;
-  border-color: #7d7c7a;
+  border-bottom-style: solid;
+  border-color: #666666!important;
 }
-nav ul.a {
-  display: inline;
+nav ul {
+  display: inline-block;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #845439;
-}
-nav ul.b {
-  display: inline;
-  list-style-type: none;
-  margin-top: 7px !important;
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
   background-color: #845439;
 }
 nav li {
-  display: inline;
+  display: inline-block;
   color: #baaa16;
 }
 a {
+  display: inline-block;
   color: #cabf02;
   padding: 4px 6px;
   text-decoration: none;
+  text-shadow: 2px 2px #663333;
 }
 li a:hover {
   background-color: #38281a;
 }
-img#icon {
-  padding-top: 4px;
+#logo {
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-bottom: -3px;
+}
+#icon {
+  margin-bottom: -8px;
 }
 
 /* AUDIO SECTION */
 nav audio {
-  margin-top: 4px;
+  margin-top: 38px;
   float: right;
+  clear: left;
   overflow: auto;
   margin-right: 12px;
 }
 
 /* BACKGROUND IMAGE */
-img#mainimg {
-  margin-top: 5px;
+#mainimg {
+  margin-top: 3px;
   width: 100%;
   padding: 0px;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-color: #7d7c7a !important;
+  border-color: #666666 !important;
   outline-style: solid;
-  outline-color: #666666;
-  outline-width: 1 px;
+  outline-color: #7d7c7a;
 }
 
 /* SPEECH BOX */
@@ -135,10 +144,10 @@ img#mainimg {
 }        
 .prev:before,
 .next:before {
-  color: #fff;
-  font-size: 100px;
+  color: #666666;
+  font-size: 30px;
   position: absolute;
-  top: 35%;
+  top: 175%;
   cursor: pointer;
 }
 
