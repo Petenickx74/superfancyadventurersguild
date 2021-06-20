@@ -29,18 +29,18 @@
 			<nav>
 					<img src="img/iconlogo.png" alt="Logo" id="logo" width="auto" height="93"> 
 					
-				<ul>
+				<ul id="nav-link">
 				  <li><a href="#top">Home</a></li>
 				  <li><a href="news.asp">News</a></li>
-				  <li><a href="contact.asp">Contact</a></li>
 				  <li><a href="about.asp">About</a></li> 
 				</ul>
 		    
 		    		<a href="https://t.me/superfancyadventurer"  alt="Telegram">
-					<img src="img/TelegramIconpixel.png" id="telegram"></a>
+					<img src="img/TelegramIconpixel.png" id="telegram" alt="telegram"></a>
 				  		
 			<!-- Audio Player -->
-				<button class="collapsible"><img src="img/audio/volumebuttonfull.png" alt="Music"></button>
+				
+					<a href="#" class="collapsible"><img src="img/audio/musicicon.png" alt="Music"></a>
 					<div class="content">
 						<div id="audioPlayer">	
 							<audio id="song" preload="auto" ontimeupdate="updateTime()" width="300" height="32">
@@ -51,23 +51,20 @@
 									<div id="songPlay" onclick="play('song')"><img src="img/audio/playbutton.png"></div>
 									<!-- Div that pauses the song when clicked.  Calls the pause button when clicked. -->
 									<div id="songPause" onclick="pause()"><img src="img/audio/pausebutton.png"></div>
-									<!-- Div that switches rather or not to play or pause the song based off of song state -->
-									<div id="songPlayPause" onclick="playPause('song')">PlayPause</div>
 									<!-- Div that stops the song when clicked -->
 									<div id="songStop" onclick="stopSong()"><img src="img/audio/stopbutton.png"></div>
-									<!-- Div that updates with current song time while playing -->
-									<div id="songTime">0:00 / 0:00</div>
-									<div id="volumeUp" onclick="changeVolume(10, 'up')">Plus</div><br>
-									<div id="volumeDown" onclick="changeVolume(10, 'down')">Minus</div>
+									
 									<!-- Volume Meter sets the new volume on click.  The Volume Status div is embedded inside so it can grow
 									within bounds to simulate percentage feel -->
 									<div id="volumeMeter" onclick="setNewVolume(this,event)"><div id="volumeStatus"></div></div>
-									<span id="volumeThirty" onclick="volumeUpdate(30)">VOLUME 30</span>
-									<span id="volumeSixty" onclick="volumeUpdate(60)">VOLUME 60</span>
-									<span id="volumeNinety" onclick="volumeUpdate(90)">VOLUME 90</span>
+									<!-- Div that updates with current song time while playing -->
+									<div id="songTime">0:00 / 0:00</div>
 									<!-- Song Slider tracks progress on song time change, if you click it sets the distance into the song
 									based on the percentage of where was clicked -->
-									<div id="songSlider" onclick="setSongPosition(this,event)"><div id="trackProgress"></div></div>					
+									<div id="songSlider" onclick="setSongPosition(this,event)"><div id="trackProgress">
+									
+									
+									</div></div>					
 						</div>	
 					</div>			
 			</nav>

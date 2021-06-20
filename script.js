@@ -64,12 +64,16 @@ function Slider(obj) {
         setInterval(slider.next, slider.rate);
     }
 };
-
+//Audio.
 var activeSong;
+var playbutton = $("#songPlay")
+var pausebutton = $("#songPause")
+activeSong = document.getElementById("song");
+pausebutton.hide()
 //Plays the song. Just pass the id of the audio element.
 function play(id){
   //Sets the active song to the song being played. All other functions depend on this.
-  activeSong = document.getElementById(id);
+  
   //Plays the song defined in the audio tag.
   activeSong.play();
 
@@ -78,22 +82,21 @@ function play(id){
   var percentageOfVolumeMeter = document.getElementById('volumeMeter').offsetWidth * percentageOfVolume;
 
   //Fills out the volume status bar.
-  document.getElementById('volumeStatus').style.width = Math.round(percentageOfVolumeSlider) + "px";
+  var percentageOfSong = (activeSong.currentTime/activeSong.duration);
+  var percentageOfSlider = document.getElementById('songSlider').offsetWidth * percentageOfSong;
+  document.getElementById('volumeStatus').style.width = Math.round(percentageOfVolumeMeter) + "px";
+ 
+  playbutton.hide()
+  pausebutton.show()
+
 }
 //Pauses the active song.
 function pause(){
   activeSong.pause();
-}
-//Does a switch of the play/pause with one button.
-function playPause(id){
-  //Sets the active song since one of the functions could be play.
-  activeSong = document.getElementById(id);
-  //Checks to see if the song is paused, if it is, play it from where it left off otherwise pause it.
-  if (activeSong.paused){
-    activeSong.play();
-  }else{
-    activeSong.pause();
-  }
+
+   playbutton.show()
+  pausebutton.hide()
+
 }
 //Updates the current time function so it reflects where the user is in the song.
 //This function is called whenever the time is updated.  This keeps the visual in sync with the actual time.
@@ -152,6 +155,7 @@ function setSongPosition(obj,e){
 
 //Set's volume as a percentage of total volume based off of user click.
 function setVolume(percentage){
+  
     activeSong.volume =  percentage;
     
     var percentageOfVolume = activeSong.volume / 1;
