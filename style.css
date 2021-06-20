@@ -91,6 +91,8 @@ li a:hover {
 }
 /* AUDIO SECTION */
 #audioPlayer {
+  outline-color: ;
+  margin-top: 10px;
   float: right;
   display: inline-block;
   width: -webkit-fill-available;
@@ -120,40 +122,37 @@ li a:hover {
   height: 16px;
   width: auto;
 }
-/*Volume Up Button*/
-#volumeUp{
-  display: inline-block;
-  height: 16px;
-  width: auto;
-}
-/*Volume Down Button*/
-#volumeDown{
-  display: inline-block;
-  height: 16px;
-  width: auto;
 }
 /*Volume Meter*/
 #volumeMeter{
-    width: 500px;
-    height: 10px;
-    background-color: black;
+  width: 500px;
+  height: 10px;
+  background-color: black;
 }
 /*Volume Location Meter*/
 #volumeStatus{
- height: 10px;
- background-color: green;
+  max-width: 500px;
+  margin-top: 10px;
+  height: 10px;
+  background-color: green;
 }
 /*Song location slider*/
 #songSlider{
+  margin-bottom: 10px;
   width: 500px;
   height: 10px;
   background-color: black;
 }
 /*Track progress bar*/
 #trackProgress{
+  margin-top: 10px;
   width: 0px;
   height: 10px;
   background-color: red;
+}
+#songTime{
+  margin-top: 10px;
+  margin-bottom: -8px;
 }
 
 /* BACKGROUND IMAGE */
