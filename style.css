@@ -4,7 +4,31 @@ body {
   background-color: #845439;
   font-family: Pixel2;
 }
+/*Collapsible Button for Audio Player*/
+.collapsible {
+  background-color: ##845439 !important;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: Pixel2;
+  font-size: 16px;
+  color: #cabf02;
+  text-shadow: -2px 3px #663333;
+}
 
+.active, .collapsible:hover {
+  background-color: #38281a;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #845439;
+}
 /* FONT */
 @font-face { 
   font-family: Pixel2; src: url(fonts/Pixel2.ttf); 
@@ -31,7 +55,7 @@ nav {
   display: inline-block;
   clear: both;
   position: static;
-  width: 100%; /* this make container fluid */
+  width: 100%; /* this make container fluid #845439, #663333 30px, #dbdbdb 30px, #663333 2px*/
   border-top-style: solid;
   border-bottom-style: solid;
   border-color: #666666!important;
@@ -67,14 +91,77 @@ li a:hover {
   margin-bottom: -8px;
   filter: drop-shadow(-1px 3px #663333);
 }
+#telegram:hover {
+  background-color: #38281a;
+}
 
 /* AUDIO SECTION */
-nav audio {
-  margin-top: 38px;
+#audioPlayer {
   float: right;
-  clear: left;
-  overflow: auto;
-  margin-right: 12px;
+  display: inline-block;
+  width: -webkit-fill-available;
+}
+/*Play button*/
+#songPlay{
+  display: inline-block;
+  height: 16px;
+  width: auto;
+}
+#songPlay:hover {
+  background-color: #38281a;
+}
+/*Pause button*/
+#songPause{
+  display: inline-block;
+  height: 16px;
+  width: auto;
+}
+/*Play/Pause button*/
+#songPlayPause{
+  display: inline-block;
+  height: 16px;
+  width: auto;
+}
+/*Stop buttton*/
+#songStop{
+  display: inline-block;
+  height: 16px;
+  width: auto;
+}
+/*Volume Up Button*/
+#volumeUp{
+  display: inline-block;
+  height: 16px;
+  width: auto;
+}
+/*Volume Down Button*/
+#volumeDown{
+  display: inline-block;
+  height: 16px;
+  width: auto;
+}
+/*Volume Meter*/
+#volumeMeter{
+    width: 500px;
+    height: 10px;
+    background-color: black;
+}
+/*Volume Location Meter*/
+#volumeStatus{
+ height: 10px;
+ background-color: green;
+}
+/*Song location slider*/
+#songSlider{
+  width: 500px;
+  height: 10px;
+  background-color: black;
+}
+/*Track progress bar*/
+#trackProgress{
+  width: 0px;
+  height: 10px;
+  background-color: red;
 }
 
 /* BACKGROUND IMAGE */
