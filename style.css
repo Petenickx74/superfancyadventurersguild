@@ -91,11 +91,16 @@ li a:hover {
 }
 /* AUDIO SECTION */
 #audioPlayer {
-  outline-color: ;
+  max-width: 500px;
+  outline-color: #663333;
+  outline-style: solid;
+  outline-width: 6px;
+  min-width: fit-content;
+  background-color: #663333;
   margin-top: 10px;
-  float: right;
   display: inline-block;
   width: -webkit-fill-available;
+  filter: drop-shadow(-1px 3px #663333);
 }
 /*Play button*/
 #songPlay{
